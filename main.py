@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
 load_dotenv()
-USERNAME = os.getenv("IG_USER")
-PASSWORD = os.getenv("IG_PASS")
+USERNAME = os.getenv("zebra.xx1")
+PASSWORD = os.getenv("BR0K3N#")
 
 WELCOME_TEXT = "🎉 Welcome {name}!"
 PING_TEXT = "Hey {mentions}, koi online aaye? 😄"
