@@ -7,7 +7,7 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 load_dotenv()
 USERNAME = os.getenv("zebra.xx1")
-PASSWORD = os.getenv("BR0K3N#")
+PASSWORD = os.getenv("BR0K3NX")
 
 WELCOME_TEXT = "🎉 Welcome {name}!"
 PING_TEXT = "Hey {mentions}, koi online aaye? 😄"
